@@ -1,0 +1,110 @@
+.inside-map-container img {
+  margin-top: 10px;
+  padding: 10px 15px 10px 0;
+  width: 200px;
+  height: 200px;
+}
+
+.inside-map-container {
+  position: relative;
+}
+.images-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.steps-container {
+  background-color: #1f253a;
+  padding: 30px 40px 90px 50px;
+  margin: 50px auto;
+  border-radius: 10px;
+
+  color: white;
+}
+.title-input {
+  width: 80%;
+  padding: 10px;
+  font-weight: bold;
+}
+.image-upload {
+  text-align: center;
+  padding: 8px;
+  font-size: 18px;
+  background-color: rgb(5, 106, 8);
+  color: #fff;
+  border: none;
+  width: 15%;
+  border-radius: 5px;
+}
+.image-upload:hover {
+  background-color: rgb(36, 148, 40);
+}
+.image-remover {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: rgb(245, 48, 48);
+  cursor: pointer;
+  position: absolute;
+  width: 25px;
+  top: 5px;
+  right: 32px;
+}
+.image-remover:hover {
+  font-weight: bolder;
+  text-shadow: 0px 0px 2px rgb(243, 8, 8);
+  color: rgb(243, 8, 8);
+}
+.details-container {
+  border: 1px solid white;
+  font-weight: 800;
+  padding: 10px 10%;
+  align-items: center;
+}
+.profit-qty {
+  margin-left: 10%;
+}
+.profit-qty input {
+  -webkit-appearance: none;
+  margin: 0 10px;
+  width: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+.profit-qty input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+.product-detail label {
+  font-size: 22px;
+  display: block;
+  text-transform: capitalize;
+  padding: 10px;
+}
+.product-detail input {
+  font-size: 18px;
+  width: 70%;
+  border-radius: 5px;
+  padding: 5px;
+}
+.additional-detail label {
+  font-size: 22px;
+  display: block;
+  text-transform: capitalize;
+  margin: 30px 0 10px 10px;
+}
+.additional-detail input {
+  font-size: 22px;
+  width: 70%;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  padding: 10px;
+}

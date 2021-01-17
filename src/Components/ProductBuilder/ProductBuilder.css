@@ -1,0 +1,23 @@
+.product-builder-container {
+  padding: 0 17vw;
+  margin: 100px auto 300px;
+  border-radius: 10px;
+  color: white;
+}
+.upload-btn {
+  position: fixed;
+  padding: 20px;
+  left: 80vw;
+  top: 80px;
+}
+.modal-wrapper {
+  background-color: white;
+  max-width: 800px;
+  margin: 4rem auto;
+}
+.close-btn {
+  position: fixed;
+  padding: 20px;
+  left: 5vw;
+  top: 80px;
+}

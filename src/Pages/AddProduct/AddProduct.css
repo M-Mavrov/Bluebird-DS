@@ -1,0 +1,11 @@
+.addproduct-container {
+  margin: 50px 100px 400px 100px;
+}
+.addproduct-container input {
+  margin-right: 5px;
+  background-color: #212a4d;
+  color: #fff;
+}
+.addproduct-container input:hover {
+  background-color: #414d7e;
+}

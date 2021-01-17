@@ -1,0 +1,15 @@
+.custom-select select {
+  padding: 7.5px;
+  width: 350px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.custom-select label {
+  max-width: 350px;
+  font-size: 18px;
+  margin-top: 10px;
+  display: flex;
+}

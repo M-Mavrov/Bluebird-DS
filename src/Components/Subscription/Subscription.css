@@ -1,0 +1,10 @@
+#subs {
+  padding: 20px;
+  font-size: 25px;
+  color: rgb(252, 3, 3);
+}
+#active-plan {
+  padding: 20px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
