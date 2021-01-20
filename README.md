@@ -1,7 +1,7 @@
 # Bluebird-DS
 ## What is Bluebird DS ?
 
-Bluebird DS is a project that mimics the behavior of a dropshipping platform.
+Bluebird DS is a dropshipping platform which helps registered users to manage their store.
 
 ## Project Status
  The project is currently under development. Users can register and login into the platform, edit their profile and add custom settings, view added product listings,add and edit new products,  track orders.
