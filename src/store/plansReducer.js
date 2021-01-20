@@ -4,9 +4,6 @@ const initialState = {
     name: "",
     active: true,
   },
-  product: {
-    name: "",
-  },
 };
 
 const plansReducer = (state = initialState, action) => {
@@ -20,17 +17,6 @@ const plansReducer = (state = initialState, action) => {
           active: action.payload.value,
         },
       };
-    case actionTypes.RESET_PLANS:
-      return initialState;
-    case actionTypes.ADD_PRODUCT:
-      return {
-        ...state,
-        plans: {
-          ...state.plans,
-        },
-        product: { ...state.product, name: action.payload.name },
-      };
-
     default:
       return state;
   }

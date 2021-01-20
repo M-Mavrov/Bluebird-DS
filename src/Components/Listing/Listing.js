@@ -242,12 +242,14 @@ function Listing() {
             setup: function (editor) {
               editor.on("blur", function (e) {
                 let value = editor.getContent();
+
                 setEditorValue(value);
               });
             },
           }}
         />
       </div>
+
       <Button
         buttonColor="green"
         buttonSize="btn--full"

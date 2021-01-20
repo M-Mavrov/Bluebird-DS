@@ -1,0 +1,28 @@
+.contact-us-container {
+  margin: 100px;
+  padding: 10px;
+  width: 90%;
+  text-align: center;
+}
+.contact-us h1 {
+  font-weight: 800;
+  letter-spacing: 5px;
+}
+.contact-us input {
+  width: 30%;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  font-weight: 600;
+}
+.contact-us textarea {
+  width: 95%;
+  height: 250px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.contact-us ::placeholder {
+  font-weight: 600;
+  text-align: center;
+}

@@ -5,7 +5,7 @@ import "./SignIn.css";
 function signIn() {
   return (
     <div>
-      <p className="members-logo">LOGO</p>
+      <p className="members-logo">Bluebird DS</p>
       <SignInForm />
     </div>
   );

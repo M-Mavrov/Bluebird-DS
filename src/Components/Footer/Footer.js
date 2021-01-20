@@ -51,7 +51,7 @@ function Footer() {
       </div>
       <div className="footer-website-wrap">
         <div className="website-logo">
-          <p>LOGO</p>
+          <p>Bluebird DS</p>
         </div>
 
         <Link className="website-links" to="/conditions-of-Use">

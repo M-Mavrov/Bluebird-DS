@@ -50,7 +50,7 @@ function AuthHome() {
             removeProduct={(data) => {
               setRemovedProduct(!removedProduct);
               setProduct(data);
-              deleteFromDb(`uneditedProducts.${data}`);
+              deleteFromDb(`products.${data}`);
             }}
           />
         </div>

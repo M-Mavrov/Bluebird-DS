@@ -69,8 +69,6 @@ function ProductBuilder(props) {
     <div>
       {init ? (
         <div className="product-builder-container">
-          <button onClick={() => console.log(updatedProduct)}>updatede</button>
-          <button onClick={() => console.log(state)}>state</button>
           <div>
             <Title
               title={state.title}
@@ -127,7 +125,7 @@ function ProductBuilder(props) {
                 props.saved();
               }}
             >
-              Upload Product
+              Update Product
             </Button>
           </div>
           <div className="close-btn">

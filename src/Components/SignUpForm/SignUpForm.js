@@ -99,7 +99,7 @@ function SignUpForm(props) {
           type="password"
         />
 
-        <div className="button-css">
+        <div className="sign-up-btn">
           <Button buttonSize="btn--large" buttonColor="green" type="submit">
             SUBMIT
           </Button>

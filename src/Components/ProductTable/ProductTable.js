@@ -76,7 +76,7 @@ function ProductTable(props) {
                     <p>VERO: {props.tableRow[keys].alerts.vero}</p>
                     <p>WARNINGS:{props.tableRow[keys].alerts.warning}</p>
                   </td>
-                  <td onClick={props.action}>{props.actionName}</td>
+                  <td>{props.tableRow[keys].actions}</td>
                   <td
                     onClick={() => {
                       props.removeProduct(keys);

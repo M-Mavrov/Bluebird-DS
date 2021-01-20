@@ -90,28 +90,3 @@
   margin-left: 10px;
   padding-right: 0;
 }
-
-img {
-  border: 0;
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
-}
-
-@media screen and (max-width: 991px) {
-  .container {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .hero-text-wrapper {
-    padding-bottom: 65px;
-  }
-
-  .col {
-    max-width: 100%;
-    flex-basis: 100%;
-  }
-}

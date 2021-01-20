@@ -35,7 +35,17 @@ function HeroSection({
               <p className="description">{description1}</p>
               <h3>{descHeading2}</h3>
               <p className="description">{description2}</p>
-              <Link to={linkTo}>
+              {linkTo !== undefined ? (
+                <Link to={linkTo}>
+                  <Button
+                    buttonSize={buttonSize}
+                    buttonColor={buttonColor}
+                    onClick={buttonClick}
+                  >
+                    {buttonLabel}
+                  </Button>
+                </Link>
+              ) : (
                 <Button
                   buttonSize={buttonSize}
                   buttonColor={buttonColor}
@@ -43,13 +53,12 @@ function HeroSection({
                 >
                   {buttonLabel}
                 </Button>
-              </Link>
+              )}
             </div>
           </div>
-          <div className="col">
-            <div className="hero-img-wrapper">
-              <img src={img} alt={alt} className="hero-img" />
-            </div>
+
+          <div className="hero-img-wrapper">
+            <img src={img} alt={alt} className="hero-img" />
           </div>
         </div>
       </div>

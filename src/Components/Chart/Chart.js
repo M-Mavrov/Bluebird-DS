@@ -43,7 +43,7 @@ function Chart(props) {
         length = 31;
         break;
     }
-    let day = new Date().getDate();
+    let day = new Date().getDate() + 1;
     let month = new Date().getMonth();
     let year = new Date().getFullYear();
     let value = new Array(length)
@@ -79,7 +79,7 @@ function Chart(props) {
         <DropDown
           ref={dropDownRef}
           labelname="Select time period"
-          defaultValue="Last Month"
+          defaultValue="14 Days"
           options={["14 Days", "Last Month", "3 Months"]}
           onChange={() => setUpdate(!update)}
         />

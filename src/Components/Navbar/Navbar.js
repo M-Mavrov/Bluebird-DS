@@ -16,7 +16,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          Logo
+          Bluebird DS
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           {click ? <p>X</p> : <p>||||</p>}
@@ -41,14 +41,6 @@ function Navbar() {
             <li className="nav-item">
               <Link to="orders" className="nav-links">
                 Orders
-              </Link>
-            </li>
-          )}
-
-          {currentUser && (
-            <li className="nav-item">
-              <Link to="plans" className="nav-links">
-                Statistics
               </Link>
             </li>
           )}

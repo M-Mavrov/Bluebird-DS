@@ -20,9 +20,9 @@ function Pricing() {
               <h4>$8.99</h4>
               <p>per month</p>
               <ul className="pricing__container-features">
-                <li>100 Transactions</li>
+                <li>100 Listings </li>
                 <li>2% Cash Back</li>
-                <li>$10,000 Limit</li>
+                <li>$1,000 Limit</li>
               </ul>
               <Button
                 buttonSize="btn--medium"
@@ -31,7 +31,7 @@ function Pricing() {
                   dispatch(actions.addPlan({ name: "starter", value: false }))
                 }
               >
-                SIGN UP NOW
+                Get Started
               </Button>
             </div>
           </Link>
@@ -42,9 +42,9 @@ function Pricing() {
               <h4>$29.99</h4>
               <p>per month</p>
               <ul className="pricing__container-features">
-                <li>500 Transactions</li>
+                <li>500 Listings </li>
                 <li>2% Cash Back</li>
-                <li>$100,000 Limit</li>
+                <li>$5,000 Limit</li>
               </ul>
               <Button
                 buttonSize="btn--medium"
@@ -53,7 +53,7 @@ function Pricing() {
                   dispatch(actions.addPlan({ name: "silver", value: false }))
                 }
               >
-                SIGN UP NOW
+                Get Started
               </Button>
             </div>
           </Link>
@@ -64,9 +64,9 @@ function Pricing() {
               <h4>$49.99</h4>
               <p>per month</p>
               <ul className="pricing__container-features">
-                <li>1000 Transactions</li>
+                <li>1000 Listings </li>
                 <li>3.5% Cash Back</li>
-                <li>$100,000 Limit</li>
+                <li>$10,000 Limit</li>
               </ul>
               <Button
                 buttonSize="btn--medium"
@@ -75,7 +75,7 @@ function Pricing() {
                   dispatch(actions.addPlan({ name: "gold", value: false }))
                 }
               >
-                SIGN UP NOW
+                Get Started
               </Button>
             </div>
           </Link>
@@ -86,9 +86,9 @@ function Pricing() {
               <h4>$99.99</h4>
               <p>per month</p>
               <ul className="pricing__container-features">
-                <li>Unlimited Transactions</li>
+                <li>Unlimited Listings </li>
                 <li>5% Cash Back</li>
-                <li>Unlimited Spending</li>
+                <li>$20,000 Limit</li>
               </ul>
               <Button
                 buttonSize="btn--medium"
@@ -97,7 +97,7 @@ function Pricing() {
                   dispatch(actions.addPlan({ name: "diamond", value: false }))
                 }
               >
-                SIGN UP NOW
+                Get Started
               </Button>
             </div>
           </Link>

@@ -49,9 +49,16 @@ function DBProvider({ children }) {
   const deleteFromDb = (value) => {
     updateDb({
       [value]: firebase.firestore.FieldValue.delete(),
-    }).catch((error) => setUpdated(!updated));
+    });
   };
-  const value = { dbState, updateDb, dbProducts, addPercent, deleteFromDb };
+
+  const value = {
+    dbState,
+    updateDb,
+    dbProducts,
+    addPercent,
+    deleteFromDb,
+  };
   return <DBContext.Provider value={value}>{children}</DBContext.Provider>;
 }
 

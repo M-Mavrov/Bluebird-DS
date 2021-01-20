@@ -102,8 +102,7 @@ input[type="number"] {
   border-radius: 5px;
 }
 
-::placeholder {
-  /* Most modern browsers support this now. */
+.additional-detail ::placeholder {
   color: rgb(255, 255, 255);
   font-weight: 500;
   padding: 10px;
